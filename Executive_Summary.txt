@@ -67,3 +67,5 @@ This project demonstrates how integrated analytics using SQL, Python, and Tablea
 By combining sales analytics, profitability analysis, customer behavior insights, and retention analytics into a unified reporting framework, the organization gains stronger visibility into performance drivers and strategic growth opportunities.
 The dashboard ecosystem developed through this project enables scalable, data-driven decision-making across both operational and executive business functions.
 
+v
+
