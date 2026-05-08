@@ -179,6 +179,9 @@ Performed regional and country-level analysis to identify:
 ## Tableau Public Dashboard
 👉 https://public.tableau.com/views/CohortAnalysis_17781774924350/Dashboard1?:showVizHome=no
 
+<img width="3038" height="1918" alt="image" src="https://github.com/user-attachments/assets/f95cc1d5-aef4-4bed-84fa-d349e3bf3aab" />
+
+
 ---
 
 # 📁 Repository Structure
