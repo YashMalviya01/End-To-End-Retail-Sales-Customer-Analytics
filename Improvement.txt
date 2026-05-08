@@ -1,0 +1,68 @@
+ Improvements & Learnings
+
+
+ What Could Be Better
+
+
+Code Documentation
+Python notebooks would benefit from docstrings explaining the "why" behind feature engineering decisions. For example:
+- Why age bins at 25/40/60 for customer segmentation
+- Which cleaning steps handle which data quality issues
+
+
+#SQL Query Comments
+Some queries could use header comments explaining their business purpose and typical runtime expectations.
+Testing
+Currently no unit tests for feature engineering functions. Adding a simple test suite would catch edge cases early.
+
+
+Data Validation
+Added basic null checks, but could formalize with a validation framework that logs issues instead of silently passing.
+
+
+---
+
+
+Planned Improvements
+
+
+Short Term 
+- Add docstrings to all Python functions
+- Test all SQL queries in production environment
+- Document why specific thresholds/bins were chosen
+- Add a validation report after data cleaning steps
+
+
+Medium Term 
+- Set up database indexes on foreign keys for query performance
+- Create unit tests for the 4 data preparation notebooks
+- Build a simple data quality dashboard in Tableau
+
+
+ Long Term
+- Predictive modeling: churn probability, demand forecasting
+- Real-time analytics pipeline (Kafka + Spark)
+- Customer segmentation using RFM + clustering
+
+
+---
+ Lessons Learned
+
+
+1. Security matters first - Credentials should never be hardcoded (fixed: now using .env)
+2. Test as you go - Catching Query 8 logic error early saved debugging time later
+3. Comments are for future you - Code is read 10x more than it's written
+4. Simple is better- Over-engineered solutions create more problems than they solve
+
+
+---
+ What Went Well
+
+
+- Star schema design is clean and efficient
+- Feature engineering captures real business logic (cohort analysis, CLV, profitability)
+- SQL cohort analysis query is solid and could be production-ready with minor tweaks
+- Tableau dashboards tell a clear story without being cluttered
+
+
+
