@@ -1,4 +1,4 @@
- 🛍️ End-To-End Retail Sales & Customer Analytics
+  🛍️ End-To-End Retail Sales & Customer Analytics
  📌 Project Overview
 
 This project is a complete end-to-end retail analytics solution designed to transform raw retail transaction data into actionable business insights using **SQL, Python, and Tableau**.
